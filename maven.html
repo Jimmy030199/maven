@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1127HW</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="../CSS/font/fontawesome-free-6.2.0-web/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <style>
+        .top-banner {
+            background-color: #6A4028;
+            text-align: center;
+            font-size: x-small;
+
+        }
+
+        .bg-1 {
+            width: 100%;
+            height: 95vh;
+            background: url('img/pic001.webp') no-repeat;
+            background-position: 85%, 0;
+            background-size: cover;
+        }
+
+        .wrap1 {
+            width: 100%;
+            aspect-ratio: 1/1.05;
+            overflow: hidden;
+        }
+
+        .wrap1 img {
+            width: 100%;
+            aspect-ratio: 1/1.05;
+            object-fit: contain;
+        }
+
+        .content {
+            height: 60vh;
+            width: 200px;
+            padding-top: 250px;
+            padding-left: 10px;
+        }
+
+        .box {
+            width: 100%;
+            aspect-ratio: 1/1.2;
+        }
+
+        .box-img {
+            width: 100%;
+            aspect-ratio: 1/1.2;
+            object-fit: cover;
+        }
+
+
+        .word {
+            font-size: 0.85rem;
+        }
+
+        .shop-nowbtn {
+            background: #ffffff;
+            transition: all .5s ease;
+
+        }
+
+        .shop-nowbtn:hover {
+
+
+            background: #ccc3b06e;
+
+        }
+
+        .foot-text {
+            font-size: x-small;
+        }
+
+        .subscription {
+            transition: all .5s ease;
+        }
+
+        .subscription:hover {
+            background: #ffffff;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="container-fluid  px-0">
+            <div class="top-banner py-2 text-white"><a href="" class="link-light text-decoration-none">雙11感謝祭 | 限時搶
+                    ►30%OFF*</a></div>
+        </div>
+
+        <div class="container-fluid ">
+            <div class="row align-center">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light club">
+                    <div class="container-fluid d-flex justify-content-between">
+                        <button class="navbar-toggler navbar-sm-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse mt-3 " id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item dropdown d-flex justify-content-between flex-wrap">
+                                    <a class="nav-link dropdown flex-grow-1 " href="#" id="navbarDropdown1"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        熱賣之選
+                                    </a>
+
+                                    <p class="pt-2 m-0 d-lg-none"><i class="bi bi-plus-lg"></i></p>
+
+                                    <ul class="dropdown-menu w-100" aria-labelledby="navbarDropdown1">
+
+                                        <li><a class="dropdown-item item-1" href="#">最新單品</a></li>
+
+                                        <li><a class="dropdown-item item-1" href="#">進店必買</a></li>
+
+                                        <li><a class="dropdown-item item-1" href="#">CITY BOY 必備</a></li>
+
+                                        <li><a class="dropdown-item item-1" href="#">全黑手錶</a></li>
+
+                                        <li><a class="dropdown-item item-1" href="#">大理石手錶</a></li>
+
+                                        <li><a class="dropdown-item item-1" href="#">情侶對錶</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="nav-item dropdown d-flex justify-content-between flex-wrap">
+                                    <a class="nav-link dropdown flex-grow-1" href="#" id="navbarDropdown2" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        所有手錶
+                                    </a>
+
+                                    <p class="pt-2 m-0 d-lg-none"><i class="bi bi-plus-lg"></i></p>
+
+                                    <ul class="dropdown-menu w-100" aria-labelledby="navbarDropdown2">
+
+                                        <li><a class="dropdown-item item-1" href="#">URBAN SCOUT</a></li>
+
+                                        <li><a class="dropdown-item item-1 item-1" href="#">THE DECO</a></li>
+
+                                        <li><a class="dropdown-item item-1" href="#">THE ARTISAN</a></li>
+
+                                        <li><a class="dropdown-item item-1" href="#">THE ENDURING</a></li>
+
+                                        <li><a class="dropdown-item item-1" href="#">THE MINIMALIST</a></li>
+
+                                        <li><a class="dropdown-item item-1" href="#">THE BRUT</a></li>
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="nav-item dropdown d-flex justify-content-between flex-wrap">
+                                    <a class="nav-link dropdown flex-grow-1" href="#" id="navbarDropdown3" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        配飾
+                                    </a>
+
+                                    <p class="pt-2 m-0 d-lg-none"><i class="bi bi-plus-lg"></i></p>
+
+                                    <ul class="dropdown-menu w-100" aria-labelledby="navbarDropdown3">
+
+                                        <li><a class="dropdown-item item-1" href="#">錶帶</a></li>
+
+                                        <li><a class="dropdown-item item-1" href="#">手鐲</a></li>
+
+                                    </ul>
+
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="nav-item dropdown d-flex justify-content-between flex-wrap">
+                                    <a class="nav-link dropdown flex-grow-1" href="#" id="navbarDropdown4" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        配飾
+                                    </a>
+
+                                    <p class="pt-2 m-0 d-lg-none"><i class="bi bi-plus-lg"></i></p>
+
+                                    <ul class="dropdown-menu w-100" aria-labelledby="navbarDropdown4">
+
+                                        <li><a class="dropdown-item item-1" href="#">最新企畫</a></li>
+
+                                        <li><a class="dropdown-item item-1" href="#">品牌故事</a></li>
+
+                                        <li><a class="dropdown-item item-1" href="#">聯名系列</a></li>
+
+                                        <li><a class="dropdown-item item-1" href="#">台灣據點</a></li>
+
+                                    </ul>
+
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <div class="wrap1 mt-3 mb-3 d-lg-none">
+                                        <img src="./img/pic002.webp">
+                                    </div>
+                                </li>
+
+                                <li class="nav-item dropdown d-flex justify-content-between flex-wrap ">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-outline-dark border-0 p-0 m-lg-0"
+                                        data-bs-toggle="modal" data-bs-target="#Modal">
+                                        <i class="bi bi-person"></i>會員帳戶
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                        aria-hidden="true">
+                                        <div class="modal-dialog m-0 ">
+
+                                            <div class="container-fluid p-0 bg-light">
+                                                <div class="container pb-3 text-center">
+                                                    <div class="topic ">
+                                                        <h2 class="pt-5 pb-3">會員登入</h2>
+                                                        <p>限時活動｜立即加入MAVEN會員，領取首次訂單9折優惠劵。</p>
+                                                    </div>
+                                                    <form class="mb-3">
+                                                        <div class="mb-3">
+                                                            <label for="InputEmail1" class="form-label"></label>
+                                                            <input type="email" class="form-control" id="InputEmail1"
+                                                                placeholder="電郵">
+
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <input type="password" class="form-control"
+                                                                id="InputPassword1" placeholder="密碼">
+                                                        </div>
+
+                                                        <button type="submit"
+                                                            class="btn btn-dark text-center w-100 p-0 mb-1">登入</button>
+
+                                                        <button type="button"
+                                                            class="btn btn-danger text-center w-100 p-0"
+                                                            data-bs-dismiss="modal">Close</button>
+
+                                                    </form>
+                                                    <p><a href="#">還不是MAVEN的會員嗎? 立即加入</a></p>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </li>
+
+
+                        </div>
+                        <div class="logo text-center"><a href="#"><img src="./img/logo.webp"
+                                    style="height: 33px;width: 55px;"></a>
+                        </div>
+                        <div class="three-icon ps-3">
+                            <span class="pe-2 ">
+                                <a class="link-dark " href="#">
+                                    <i class="bi bi-search"></i>
+                                </a>
+                            </span>
+                            <span>
+                                <a class="link-dark " href="#">
+                                    <i class="bi bi-bag"></i>
+                                </a>
+                            </span>
+                            <span></span>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section1>
+            <div class="container-fluid bg-1">
+
+                <div class="content d-flex flex-column justify-content-center  ">
+                    <p class="mb-1 text-white ">全新登場</p>
+                    <p class="mb-2 text-white ">MUS PARACHUTE</p>
+                    <button class="btn btn-light shop-nowbtn">SHOP NOW</button>
+
+                </div>
+            </div>
+        </section1>
+
+        <section2>
+            <div class="container-fluid mt-4 pb-3 text-center">
+                <p class="fs-6">BEST SELLERS</p>
+                <div class="male-female">
+                    <a class="text-decoration-none link-dark me-2 border-bottom border-1 border-dark" href="#">男士手錶</a>
+                    <a class="text-decoration-none link-dark" href="#">女士手錶</a>
+                </div>
+            </div>
+            <div class="container-fluid mb-3">
+                <div class="row row-cols-1 row-cols-lg-4  justify-content-center flex-wrap g-3">
+                    <div class="col "><a href="#" class="text-decoration-none link-dark">
+                            <div class="card ">
+                                <img src="./img/product.1" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">BR-01&nbspSILVER</h5>
+                                    <p class="card-text">NT $6300</p>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col">
+                        <a href="#" class="text-decoration-none link-dark">
+                            <div class="card">
+                                <img src="./img/product.2" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">BR-02&nbspGRAPHITE</h5>
+                                    <p class="card-text">NT $6300</p>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="#" class="text-decoration-none link-dark">
+                            <div class="card">
+                                <img src="./img/product.3" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">MUS-01&nbspKHAKI&nbsp&nbsp40MM</h5>
+                                    <p class="card-text">NT $5800</p>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="#" class="text-decoration-none link-dark">
+                            <div class="card">
+                                <img src="./img/product.4.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+
+                                    <h5 class="card-title">MUS-02&nbspNAVY&nbsp&nbsp40MM</h5>
+                                    <p class="card-text">NT $5800</p>
+
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+        </section2>
+
+        <section3 class="section3">
+            <div class="container-fluid p-0">
+                <div class="row row-cols-1 row-cols-lg-2 text-center g-0">
+
+                    <div class="col d-flex flex-column justify-content-center fs-6 pt-3 ">
+                        <h3 class="mb-4">URBAN NATURE</h3>
+                        <p class="word px-5 ">
+                            Artisan系列從現代建築與自然環境的和諧共處之中汲取靈感，以天然素材點綴摩登設計，將兩者完美契合。有了自然素淨的色調，您就可以與衣櫥裡的時髦服飾混合搭配，輕易打造出個人時尚。
+                        </p>
+                    </div>
+
+                    <div class="col ">
+                        <div class="box">
+                            <img class="box-img" src="./img/Urbannature.webp">
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-lg-2 text-center g-0">
+
+                    <div class="col d-flex flex-column justify-content-center fs-6 pt-5 order-lg-2 ">
+                        <h3 class="mb-4">藍寶石防刮鏡面</h3>
+                        <p class="word px-5">
+                            強硬耐用及抗刮花的鏡面
+                            盡情享受具有極佳抗壓強度的保謢
+                        </p>
+                    </div>
+
+                    <div class="col order-lg-1 ">
+                        <div class="box">
+                            <img class="box-img" src="./img/blue.webp">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-lg-2 text-center g-0">
+                    <div class="col d-flex flex-column justify-content-center fs-6 pt-5  ">
+                        <h3 class="mb-4">靈活快卸錶帶功能</h3>
+                        <p class="word px-5">
+                            輕易拆換錶帶 靈活度大提高
+                            能隨日常打扮或心情轉換不同顏色配搭
+                        </p>
+                    </div>
+
+                    <div class="col ">
+                        <div class="box">
+                            <img class="box-img" src="./img/gif.webp">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </section3>
+
+        <section4>
+            <div id="carouselExampleCaptions" class="carousel slide mt-3" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="">
+                            <img src="./img/輪播01.webp" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-dark">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="">
+                            <img src="./img/輪播02.webp" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="">
+                            <img src="./img/1124.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block ">
+                                <h5 class="switchH5 text-light">黑五感謝祭優惠商品</h5>
+                                <p class="text-dark">So指定商品單件89折/兩件78折，優惠結賬時計算，不適用於其他優惠</p>
+                            </div>
+                    </div></a>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+            </div>
+
+        </section4>
+
+
+
+
+    </main>
+    <footer>
+        <div class="container-fluid border-top my-2 mt-5 pt-3">
+            <div class="row  mt-2 mb-2 d-flex g-3 justify-content-around">
+                <div class="mb-3 col-12 col-lg-3">
+                    <p class="ps-2">請收最新產品及優惠情報</p>
+                    <input type="text" class="form-control mt-2 " placeholder="請輸入電子信箱">
+                    <button class="btn btn-dark w-100 subscription">立即訂閱</button>
+                </div>
+
+
+
+                <div class="foot-text  border-bottom  col-6 mb-2 col-lg-3 ps-lg-5">
+                    <a href="#" class="text-decoration-none text-dark ">
+                        <h5>關於我們</h5>
+                    </a>
+                    <a href="#" class="text-decoration-none text-dark">
+                        <p>品牌故事</p>
+                    </a>
+                    <a href="#" class="text-decoration-none text-dark">
+                        <p>加入會員</p>
+                    </a>
+                    <a href="#" class="text-decoration-none text-dark">
+                        <p>部落格</p>
+                    </a>
+                    <a href="#" class="text-decoration-none text-dark">
+                        <p>台灣據點</p>
+                    </a>
+                    <a href="#" class="text-decoration-none text-dark">
+                        <p>聯名系列</p>
+                    </a>
+                    <a href="#" class="text-decoration-none text-dark">
+                        <p>媒體報導</p>
+                    </a>
+                </div>
+                <div class="foot-text col-6 mb-2  border-bottom col-lg-3">
+                    <a href="#" class="text-decoration-none text-dark ">
+                        <h5>疑難排解</h5>
+                    </a>
+                    <a href="#" class="text-decoration-none text-dark">
+                        <p>購物須知</p>
+                    </a>
+                    <a href="#" class="text-decoration-none text-dark">
+                        <p>配送方式</p>
+                    </a>
+                    <a href="#" class="text-decoration-none text-dark">
+                        <p>常見問題</p>
+                    </a>
+                    <a href="#" class="text-decoration-none text-dark">
+                        <p>保修申請</p>
+                    </a>
+
+
+                </div>
+
+
+                <div class="col-12 col-lg-3">
+
+                    <span class="pb-2 fs-6 mb-0 ">
+                        <p class="d-inline-block mb-1
+                        ">MAVEN WATCHES</p>
+                        <p class="d-inline-block mb-1
+                        ">台灣官方網站</p>
+                    </span>
+                    <p class="foot-text my-0">邁雲有限公司</p>
+                    <p class="foot-text my-0">統一編號 : 82883424</p>
+                    <p class="foot-text my-0 text-decoration-underline ">sales_tw@mavenwatches.com</p>
+                    <span class="mt-2  pb-4 ">
+                        <a href="" class="text-decoration-none text-dark"><i class="bi bi-facebook me-3 "></i></a>
+                        <a href="" class="text-decoration-none text-dark"><i class="bi bi-instagram me-3"></i></a>
+                        <a href="" class="text-decoration-none text-dark"><i class="bi bi-youtube "></i></a>
+                    </span>
+
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+
+
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
